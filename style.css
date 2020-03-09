@@ -27,6 +27,7 @@ body,html{
   //background-color: orangered;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .timer-box{
   width: 70px;
@@ -49,3 +50,15 @@ body,html{
 .timer-box:last-child{
   border-right: 0px;
 }
+
+@media screen and (max-width:768px){
+  #arulogo{
+    width: 100%;    
+  }
+}
+@media screen and (max-width:320px){
+  #heading{
+    font-size: 15px;    
+  }
+}
+
