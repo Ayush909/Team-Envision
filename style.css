@@ -41,11 +41,12 @@ body,html{
   margin: 0;
   padding: 10px;
 }
-.timer-box:nth-child(even){
-  color:#FFE400;
-}
+
 .timer-box:nth-child(odd){
   color:#F26722;
+}
+.timer-box:nth-child(even){
+  color:#FFE400;
 }
 .timer-box:last-child{
   border-right: 0px;
@@ -58,7 +59,7 @@ body,html{
 }
 @media screen and (max-width:320px){
   #heading{
-    font-size: 15px;    
+    font-size: 20px;    
   }
 }
 
